@@ -11,7 +11,7 @@ $Tweede = readline();
     }else{
     echo"Dit is geen getal";
     }
-    }elseif($uitvoering == "-") {
+}elseif($uitvoering == "-") {
     echo ("Eerste getal?");
     $Derde = readline();
     echo ("Tweede getal?");
@@ -21,7 +21,7 @@ $Tweede = readline();
     }else{
         echo"Dit is geen getal";
     }
-}elseif($uitvoering == "%"){
+}elseif($uitvoering == "%") {
     echo ("Eerste getal?");
     $Vijfde = readline();
     echo ("Tweede getal?");
