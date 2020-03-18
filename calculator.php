@@ -6,12 +6,12 @@ echo ("Eerste getal?");
 $Eerste = readline();
 echo ("Tweede getal?");
 $Tweede = readline();
-    if (is_numeric($Eerste)&&is_numeric ($Tweede)) {
+    if(is_numeric($Eerste)&&is_numeric ($Tweede)) {
     echo (int) ($Eerste + $Tweede);
     }else{
     echo"Dit is geen getal";
     }
-    }elseif($uitvoering == "-") {
+}elseif($uitvoering == "-"){
     echo ("Eerste getal?");
     $Derde = readline();
     echo ("Tweede getal?");
@@ -21,7 +21,7 @@ $Tweede = readline();
     }else{
         echo"Dit is geen getal";
     }
-}elseif($uitvoering == "%") {
+}elseif($uitvoering == "%"){
     echo ("Eerste getal?");
     $Vijfde = readline();
     echo ("Tweede getal?");
